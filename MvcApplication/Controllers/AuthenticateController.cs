@@ -28,5 +28,15 @@ namespace MvcApplication.Controllers
             return View(result);
         }
 
+        public string logon2(string userId, string password)
+        {
+            var result = Authenticator.Authenticate(userId, password);
+
+            /*Response.Write("memberOf=" + string.Join(";", result.MemberOf));
+            Response.Write("<br/>");
+            Response.Write("extensionAttribute13=" + result.ExtensionAttribute13);*/
+
+            return result.ToString();
+        }
     }
 }

@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcApplication", "MvcApplic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassLibrary", "..\DepartmentService\ClassLibrary\ClassLibrary.csproj", "{FDCB7624-717E-4814-A2BF-0A3C7E948B33}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcApplication.Tests", "MvcApplication.Tests\MvcApplication.Tests.csproj", "{14E57D3B-80B7-44AE-AA8D-5CBEFDCA3CFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{FDCB7624-717E-4814-A2BF-0A3C7E948B33}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDCB7624-717E-4814-A2BF-0A3C7E948B33}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDCB7624-717E-4814-A2BF-0A3C7E948B33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14E57D3B-80B7-44AE-AA8D-5CBEFDCA3CFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14E57D3B-80B7-44AE-AA8D-5CBEFDCA3CFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14E57D3B-80B7-44AE-AA8D-5CBEFDCA3CFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14E57D3B-80B7-44AE-AA8D-5CBEFDCA3CFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
