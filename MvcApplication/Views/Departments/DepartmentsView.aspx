@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" Inherits="MvcApplication.Views.Departments.DepartmentsView" CodeBehind="~/Views/Departments/DepartmentsView.aspx.cs" %>
+﻿<%@ Page Language="C#" Inherits="MvcApplication.Views.Departments.DepartmentsView" CodeBehind="~/Views/Departments/DepartmentsView.aspx.cs" AutoEventWireup="True" %>
 
 <asp:Content runat="server" ID="BodyContent" ContentPlaceHolderID="MainContent">
 
