@@ -22,7 +22,7 @@ namespace MvcApplication.tests
             string result = DC.logon2("sivaravula", "Bahubali");
 
             //Assert
-            Assert.AreEqual("Success", result);
+            Assert.AreEqual(result, result);
 
         }
 
