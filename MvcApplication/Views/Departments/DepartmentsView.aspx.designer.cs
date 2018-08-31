@@ -8,7 +8,7 @@
 //------------------------------------------------------------------------------
 
 namespace MvcApplication.Views.Departments {
-    
+    //cfcff
     
     public partial class DepartmentsView {
     }
